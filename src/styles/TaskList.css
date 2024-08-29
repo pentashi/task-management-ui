@@ -1,0 +1,27 @@
+.task-list-container {
+    margin-top: 2rem;
+  }
+  
+  .table-success {
+    background-color: #d4edda !important; /* Green background for completed tasks */
+  }
+  
+  .text-decoration-line-through {
+    text-decoration: line-through; /* Strikethrough text */
+  }
+  
+  @media (max-width: 768px) {
+    .task-table,
+    .completed-task-table {
+      font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+  
+    .d-flex {
+      flex-direction: column;
+    }
+  
+    .me-2 {
+      margin-right: 0.5rem; /* Adjust margin for buttons */
+    }
+  }
+  
