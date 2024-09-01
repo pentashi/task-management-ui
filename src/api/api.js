@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://task-manager-backend-loce.vercel.app/';
+const API_BASE_URL = 'https://task-manager-backend-one-sepia.vercel.app/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
